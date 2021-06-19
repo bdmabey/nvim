@@ -20,6 +20,7 @@ require'compe'.setup {
     tags = true;
     nvim_lua = true;
     nvim_lsp = true;
+    treesitter = true;
   };
 }
 
