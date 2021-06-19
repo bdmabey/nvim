@@ -9,3 +9,9 @@ paq('joshdick/oneddark.vim')
 
 --Code Completion
 paq('hrsh7th/nvim-compe')
+paq('neovim/nvim-lspconfig')
+paq('kabouzeid/nvim-lspinstall')
+paq({
+  'nvim-treesitter/nvim-treesitter',
+  run = ':TSUpdate',
+})
